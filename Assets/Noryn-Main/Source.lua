@@ -1359,7 +1359,7 @@ end)
 			Badge.Position = UDim2.new(0.370000005, 0, 0.400000036, 0)
 			Badge.Size = UDim2.new(0, 14, 0, 14)
 			Badge.ZIndex = 1
-			Badge.Image = "rbxassetid://70492506173823"
+			Badge.Image = "rbxassetid://77826188045940"
 
 			local TextLabel = Instance.new("TextLabel")
 			TextLabel.Parent = Verified
