@@ -21,12 +21,11 @@
  
 @ Noryn | © COPYRIGHT 2026
 --// Hey, before skidding read — LICENSE ✨.
---// Made ForThoseWhoCare.
 ]]
 
 --// [NOTIFY]
 
-local Notification = loadstring(game:HttpGet('http://raw.githubusercontent.com/noryni/Collection/refs/heads/main/Assets/Noryn/Notify.lua'))()
+local Notification = loadstring(game:HttpGet('http://raw.githubusercontent.com/noryni/Collection/refs/heads/main/Assets/Noryn/Wave/Notify.lua'))()
 local Notify = Notification.Notify;
 
 local function create_notify(title, description, duration)
@@ -46,7 +45,7 @@ getgenv().UITweaks_Enabled = {
     color = false,
     color_size = -1
 }
-local Library = loadstring(game:HttpGet('http://raw.githubusercontent.com/noryni/Collection/refs/heads/main/Assets/Noryn/Source.lua'))()
+local Library = loadstring(game:HttpGet('http://raw.githubusercontent.com/noryni/Collection/refs/heads/main/Assets/Noryn/Wave/Source.lua'))()
 local Main = Library.__init()
 
 --// [MAIN TAB]
